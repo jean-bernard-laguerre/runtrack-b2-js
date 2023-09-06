@@ -43,6 +43,4 @@ function long(array) {
     }
     return count
 }
-
-console.log(myArraySort([1,5,67,12,3], "DESC"))
 console.log(myArraySort([1,5,67,12,3], "ASC"))

@@ -10,5 +10,3 @@ function myCountChar(haystack, needle) {
 
     return count
 }
-
-console.log(myCountChar('La plateforme', 'a'))

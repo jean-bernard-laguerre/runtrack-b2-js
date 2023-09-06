@@ -30,6 +30,3 @@ function long(str) {
     }
     return count
 }
-
-console.log(myIsInString("Hello World","llo"))
-console.log(myIsInString("Hello World","rele"))

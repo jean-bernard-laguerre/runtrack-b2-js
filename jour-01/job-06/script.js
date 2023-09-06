@@ -7,5 +7,3 @@ function mySquareArray(array) {
 
     return squareArray
 }
-
-console.log(mySquareArray([3,8,4,2,5]))

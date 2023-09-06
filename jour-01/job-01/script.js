@@ -32,5 +32,3 @@ function long(str) {
     }
     return count
 }
-
-console.log(myUpperCase("Hello World"))

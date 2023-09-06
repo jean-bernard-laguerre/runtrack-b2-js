@@ -14,6 +14,3 @@ function myNearZero(array) {
     }
     return closest
 }
-
-console.log(myNearZero([3,8,4,2,5]))
-console.log(myNearZero([-1,-4,2,5,9]))
