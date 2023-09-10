@@ -1,9 +1,13 @@
 function myArraySort(array, sorting) {
 
     let change = 0
+    let count = 0
+    for(let item of array) {
+        count++
+    }
 
     while (true) {
-        for (let i = 0; i < long(array); i++) {
+        for (let i = 0; i < count; i++) {
 
             let condition
             switch (sorting) {
@@ -35,12 +39,3 @@ function myArraySort(array, sorting) {
     
     return array
 }
-
-function long(array) {
-    count = 0
-    for(let item of array) {
-        count++
-    }
-    return count
-}
-console.log(myArraySort([1,5,67,12,3], "ASC"))

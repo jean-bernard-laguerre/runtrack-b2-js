@@ -4,13 +4,19 @@ function myUpperCase(string) {
     const UPPER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     let newString = ""
+    let count = 0
+
+    for(let x of LOWER) {
+        count++
+    }
 
     for (let char of string) {
 
         let change = false
-        for (let j = 0; j < long(LOWER); j++){
+        for (let j = 0; j < count; j++){
 
             if (char == LOWER[j]) {
+
                 newString += UPPER[j]
                 change = true
                 break
@@ -23,12 +29,4 @@ function myUpperCase(string) {
     }
 
     return newString
-}
-
-function long(str) {
-    count = 0
-    for(let char of str) {
-        count++
-    }
-    return count
 }

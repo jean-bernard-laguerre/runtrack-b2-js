@@ -11,6 +11,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const btn = document.querySelector("#add-count-btn")
     
-
     btn.addEventListener("click", myAddCount)
 })
